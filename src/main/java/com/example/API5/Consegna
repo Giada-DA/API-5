@@ -1,0 +1,16 @@
+Consegna:
+
+-scrivi un'applicazione Spring Boot con le dipendenze necessarie che abbia:
+  -ha un DTO chiamato CarDTO con le seguenti proprietà:
+    -una stringa id (obbligatorio)
+    -una stringa modelName (obbligatorio)
+    -un doppio price
+  -un CarController che:
+    -è mappato cars
+    -su una GET richiesta restituisce un nuovo Car come risposta
+    -su POST richiesta stampa il Car corpo nella console e restituisce un Created messaggio di successo HTTP all'utente
+    -si occupa della validazione del corpo della richiesta
+-testare i 2 endpoint API con Postman:
+  -una GET richiesta
+  -una POST richiesta con un payload corretto
+  -una POST richiesta con un payload errato
